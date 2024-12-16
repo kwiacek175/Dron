@@ -13,7 +13,7 @@ Projekt "Dron" to aplikacja symulacyjna, która modeluje interakcje dronów w pr
    W przestrzeni 3D znajdują się różne obiekty terenowe:
    - **Góra**  
    - **Płaskowyż**  
-   - **Granit**  
+   - **Graniastosłup**  
    Użytkownik może dodawać te obiekty do sceny, a aplikacja automatycznie sprawdza, czy nie kolidują one z innymi elementami.
 
 3. **Drony**  
@@ -38,7 +38,7 @@ Projekt oparty jest na klasach, które modelują różne aspekty sceny:
 
 - **Scena** – główna klasa, która odpowiada za zarządzanie wszystkimi elementami i dronami, dodawanie nowych obiektów do przestrzeni, sprawdzanie kolizji i interakcję z użytkownikiem.
 - **Obiekt_Sceny** – bazowa klasa dla wszystkich elementów sceny, takich jak góry, płaskowyże, granit oraz drony. Odpowiada za podstawowe operacje na obiektach, jak np. zapis danych, kolizje itp.
-- **Gora, Plaskowyz, Gran** – klasy dziedziczące po `Obiekt_Sceny`, reprezentujące różne typy obiektów terenowych, które można dodawać do sceny.
+- **Gora, Plaskowyz, Graniastosłup** – klasy dziedziczące po `Obiekt_Sceny`, reprezentujące różne typy obiektów terenowych, które można dodawać do sceny.
 - **Dron** – klasa reprezentująca dron, który porusza się w przestrzeni 3D i może wchodzić w interakcje z innymi obiektami.
 
 ### Implementacja
