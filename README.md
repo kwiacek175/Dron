@@ -30,7 +30,7 @@ Projekt "Dron" to aplikacja symulacyjna, która modeluje interakcje dronów w pr
    - **4** – usuwanie dronów z listy
 
 6. **Rysowanie sceny**  
-   Aplikacja korzysta z biblioteki graficznej (prawdopodobnie PzG) do rysowania 3D i wizualizacji elementów. Wszystkie obiekty i drony są dodawane do wizualizacji po ich utworzeniu.
+   Aplikacja korzysta z biblioteki graficznej PzG do rysowania 3D i wizualizacji elementów. Wszystkie obiekty i drony są dodawane do wizualizacji po ich utworzeniu.
 
 ### Struktura projektu
 
